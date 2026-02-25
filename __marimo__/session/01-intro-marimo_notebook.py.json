@@ -131,6 +131,46 @@
       ]
     },
     {
+      "id": "kKCg",
+      "code_hash": "4f1f1baff8e07cc7af1118ec33e856aa",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Welcome, Fernando\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "bGqg",
+      "code_hash": "7f724b596b5f67855ad3e2fab9917a8a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Stop\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
       "id": "SFPL",
       "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
       "outputs": [
@@ -150,7 +190,7 @@
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='b2ffc000-c3d4-50e5-94da-c111b1df75c2'><marimo-slider data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Choose a value:&lt;/span&gt;&lt;/span&gt;&quot;' data-start='0' data-stop='100' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='BYtC-0' random-id='c69bc97a-fb5e-deef-0949-096ba000e0d8'><marimo-slider data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Choose a value:&lt;/span&gt;&lt;/span&gt;&quot;' data-start='0' data-stop='100' data-steps='[]' data-debounce='false' data-disabled='false' data-orientation='&quot;horizontal&quot;' data-show-value='false' data-include-input='false' data-full-width='false'></marimo-slider></marimo-ui-element>"
           }
         }
       ],
@@ -159,58 +199,23 @@
     {
       "id": "RGSE",
       "code_hash": "06c049f7eb947d5b57f697972ca561bb",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": "Double the selected value is: 0\n",
-          "mimetype": "text/plain"
-        }
-      ]
+      "outputs": [],
+      "console": []
     },
     {
       "id": "Kclp",
       "code_hash": "dde6a8ec1f08969f2ad8e5fd493037ed",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
+      "outputs": [],
       "console": []
     },
     {
       "id": "emfo",
       "code_hash": "0691fde855a108d07d49b3e09b04b829",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": "Fernando\n",
-          "mimetype": "text/plain"
-        }
-      ]
+      "outputs": [],
+      "console": []
     },
     {
-      "id": "rcOS",
+      "id": "Hstk",
       "code_hash": "18df2cf4faada65c12a22ab2582bf53b",
       "outputs": [
         {
@@ -230,68 +235,26 @@
       ]
     },
     {
-      "id": "JVDB",
-      "code_hash": "90720e4d29d5438e68a4cd139aad6005",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": "\tNAMES\n==============================\n1: Ada Lovelace\n2: Grace Hopper\n3: Alan Turing\n4: Tim Berners-Lee\n5: Linus Torvalds\n6: Hedy Lamarr\n7: Margaret Hamilton\n8: Mary Kenneth Keller\n9: Radia Perlman\n10: Carol Shaw\n11: Bjarne Stroustrup\n12: Guido van Rossum\n13: Fei-Fei Li\n14: Yann LeCun\n15: Ian Goodfellow\n16: Geoffrey Hinton\n17: John Hopfield\n",
-          "mimetype": "text/plain"
-        }
-      ]
-    },
-    {
-      "id": "Hstk",
-      "code_hash": "2af4dd55ef02051831f1a71c91cfcf50",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": "['Ada Lovelace', 'Grace Hopper', 'Alan Turing', 'Tim Berners-Lee', 'Linus Torvalds', 'Hedy Lamarr', 'Margaret Hamilton', 'Mary Kenneth Keller', 'Radia Perlman', 'Carol Shaw', 'Bjarne Stroustrup', 'Guido van Rossum', 'Fei-Fei Li', 'Yann LeCun', 'Ian Goodfellow', 'Geoffrey Hinton', 'John Hopfield']\n",
-          "mimetype": "text/plain"
-        }
-      ]
-    },
-    {
-      "id": "XOac",
-      "code_hash": "020c4f8c1610d9c1e850d043bf787170",
-      "outputs": [
-        {
-          "type": "data",
-          "data": {
-            "text/plain": ""
-          }
-        }
-      ],
-      "console": [
-        {
-          "type": "stream",
-          "name": "stdout",
-          "text": "Ada Lovelace\nGrace Hopper\nAlan Turing\nTim Berners-Lee\nLinus Torvalds\nHedy Lamarr\nMargaret Hamilton\nMary Kenneth Keller\nRadia Perlman\nCarol Shaw\nBjarne Stroustrup\nGuido van Rossum\nFei-Fei Li\nYann LeCun\nIan Goodfellow\nGeoffrey Hinton\nJohn Hopfield\n",
-          "mimetype": "text/plain"
-        }
-      ]
-    },
-    {
       "id": "nWHF",
-      "code_hash": "b0cf5f30686b1e37c9a0c810ea9d4cd3",
+      "code_hash": "90720e4d29d5438e68a4cd139aad6005",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "9e48e6b4249b016d81963669ae9d22b8",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "e50a7820fda657b08dd877f5459272d1",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "1169b9ee5308fcc5339965f7d3f072ff",
       "outputs": [
         {
           "type": "data",
@@ -310,7 +273,53 @@
       ]
     },
     {
-      "id": "iLit",
+      "id": "qnkX",
+      "code_hash": "ad4e86c92a64d4a98b1a80dc1e58479c",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "oHsS",
+      "code_hash": "a4490ebdf605cd5d3f4fab362f7c8b11",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='qnkX-0' random-id='f5891a7c-7c8d-8151-fed3-63f55977abca'><marimo-text data-initial-value='&quot;&quot;' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Your name:&lt;/span&gt;&lt;/span&gt;&quot;' data-placeholder='&quot;&quot;' data-kind='&quot;text&quot;' data-full-width='false' data-disabled='false' data-debounce='true'></marimo-text></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ybty",
+      "code_hash": "c67005eb338142261188b045633aa508",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Your name: Galvao\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "wEmq",
       "code_hash": null,
       "outputs": [],
       "console": []

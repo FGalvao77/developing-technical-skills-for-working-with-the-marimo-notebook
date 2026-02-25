@@ -73,6 +73,28 @@ def _():
 
 @app.cell
 def _():
+    def hello(your_name:str):
+        print(f'Welcome, {your_name}')
+
+    my_name = 'Fernando'
+    hello(my_name)
+    return
+
+
+@app.cell
+def _():
+    def _(age:int):
+        if age < 18:
+            print('Stop!')
+        else:
+            print('Yes!')
+
+    _(17)
+    return
+
+
+@app.cell
+def _():
     import marimo as mo
 
     return (mo,)
@@ -134,7 +156,7 @@ def _():
     def _():
         def print_names(names:list) -> list:
             print(names)
-        
+
         if __name__ == '__main__':
             list_names = ['Ada Lovelace', 'Grace Hopper', 'Alan Turing', 'Tim Berners-Lee', 'Linus Torvalds', 
                      'Hedy Lamarr', 'Margaret Hamilton', 'Mary Kenneth Keller', 'Radia Perlman', 'Carol Shaw',
@@ -152,7 +174,7 @@ def _():
     def _():
         def print_names(names:list) -> list:
             print(names)
-        
+
         if __name__ == '__main__':
             list_names = ['Ada Lovelace', 'Grace Hopper', 'Alan Turing', 'Tim Berners-Lee', 'Linus Torvalds', 
                      'Hedy Lamarr', 'Margaret Hamilton', 'Mary Kenneth Keller', 'Radia Perlman', 'Carol Shaw',
@@ -172,7 +194,7 @@ def _():
     def _():
         def print_names(names:list) -> list:
             print(names)
-        
+
         if __name__ == '__main__':
             list_names = ['Ada Lovelace', 'Grace Hopper', 'Alan Turing', 'Tim Berners-Lee', 'Linus Torvalds', 
                      'Hedy Lamarr', 'Margaret Hamilton', 'Mary Kenneth Keller', 'Radia Perlman', 'Carol Shaw',
@@ -184,6 +206,24 @@ def _():
 
 
     _()
+    return
+
+
+@app.cell
+def _(mo):
+    your_name = mo.ui.text(label='Your name:')
+    return (your_name,)
+
+
+@app.cell
+def _(your_name):
+    your_name
+    return
+
+
+@app.cell
+def _(your_name):
+    print(f'Your name: {your_name.value}')
     return
 
 
